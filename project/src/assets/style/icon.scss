@@ -1,0 +1,150 @@
+// 图标
+@mixin icon($width, $height, $imgUrl) {
+  display: inline-block;
+  width: $width;
+  height: $height;
+  background: url($imgUrl) no-repeat center center;
+}
+.i-menu-home {
+  @include icon(21px, 21px, '~@/assets/img/menu_home.png');
+  background-size: contain;
+}
+
+.i-menu-layout {
+  @include icon(21px, 21px, '~@/assets/img/menu_layout.png');
+  background-size: contain;
+}
+
+.i-menu-deploy {
+  @include icon(21px, 21px, '~@/assets/img/menu_deploy.png');
+  background-size: contain;
+}
+.i-menu-pm {
+  @include icon(21px, 21px, '~@/assets/img/menu_pm.png');
+  background-size: contain;
+}
+
+.i-menu-system {
+  @include icon(21px, 21px, '~@/assets/img/menu_system.png');
+  background-size: contain;
+}
+.el-submenu:hover, .el-submenu.is-active {
+  .i-menu-layout {
+    @include icon(21px, 21px, '~@/assets/img/menu_layout_active.png');
+    background-size: contain;
+  }
+
+  .i-menu-deploy {
+    @include icon(21px, 21px, '~@/assets/img/menu_deploy_active.png');
+    background-size: contain;
+  }
+  .i-menu-pm {
+    @include icon(21px, 21px, '~@/assets/img/menu_pm_active.png');
+    background-size: contain;
+  }
+
+  .i-menu-system {
+    @include icon(21px, 21px, '~@/assets/img/menu_system_active.png');
+    background-size: contain;
+  }
+}
+.el-menu-item:hover, .el-menu-item.is-active {
+  .i-menu-home {
+    @include icon(21px,21px, '~@/assets/img/menu_home_active.png');
+    background-size: contain;
+  }
+}
+.i-user-male {
+  @include icon(29px, 29px, '~@/assets/img/user_icon_male.png');
+}
+
+.i-header-bell {
+  @include icon(16px, 16px, '~@/assets/img/header_bell.png');
+}
+
+.i-header-bell_r {
+  @include icon(6px, 6px, '~@/assets/img/header_bell_r.png');
+}
+
+
+.i-header-right {
+  @include icon(16px, 16px, '~@/assets/img/header_right.png');
+}
+
+.i-header-user {
+  @include icon(16px, 16px, '~@/assets/img/user.png');
+}
+
+.i-header-arrow {
+  @include icon(8px, 16px, '~@/assets/img/header_arrow.png');
+;
+}
+
+.i-current-task {
+  @include icon(20px, 20px, '~@/assets/img/task.png');
+}
+
+.i-task-progress {
+  @include icon(20px, 20px, '~@/assets/img/task_progress.png');
+}
+.i-task-detail {
+  @include icon(20px, 20px, '~@/assets/img/task_detail.png');
+}
+.i-user-name {
+  @include icon(25px, 25px, '~@/assets/img/user_name.png');
+}
+.i-user-pwd {
+  @include icon(25px, 25px, '~@/assets/img/pwd.png');
+}
+.i-user-code {
+  @include icon(25px, 25px, '~@/assets/img/code.png');
+}
+.i-card-home {
+  @include icon(60px, 60px, '~@/assets/img/card_home.png');
+}
+
+.i-card-layout {
+  @include icon(60px, 60px, '~@/assets/img/card_layout.png');
+}
+
+.i-card-pm {
+  @include icon(60px, 60px, '~@/assets/img/card_pm.png');
+}
+.i-card-deploy {
+  @include icon(60px, 60px, '~@/assets/img/card_deploy.png');
+}
+.i-card-system {
+  @include icon(60px, 60px, '~@/assets/img/card_system.png');
+}
+
+.i-no-result {
+  @include icon(166px, 210px, '~@/assets/img/no_result.png');
+}
+
+
+.i-login-logo {
+  @include icon(80px, 90px, '~@/assets/img/login_logo.png');
+  background-size: contain;
+}
+.i-collapse {
+  @include icon(16px, 16px, '~@/assets/img/not_collapsed.png');
+}
+
+.i-collapsed {
+  @include icon(16px, 16px, '~@/assets/img/collapsed.png');
+}
+.i-header-search {
+  @include icon(16px, 16px, '~@/assets/img/header_search.png');
+}
+
+.i-header-user {
+  @include icon(16px, 16px, '~@/assets/img/header_user.png');
+}
+
+.i-alarm {
+  @include icon(20px, 22px, '~@/assets/img/alarm.png');
+}
+
+.i-bulb {
+  @include icon(50px, 71px, '~@/assets/img/bulb.png');
+}
